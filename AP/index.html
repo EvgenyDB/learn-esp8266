@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="about:blank">
+</head>
+<body>
+	<div style="color:black;text-align:center;width:100%;display:inline-block;font-weight:bold">WIFI STA config</div>
+	<div>
+		<form action="/action.lsp" method="get" target="_self">
+			<label for="ssid" style="color:blue;text-align:right;width:15%;display:inline-block;font-weight:bold">ssid:</label>
+			<input type="text" id="ssid" value="test" name="ssid"><br>
+			<label for="pass" style="color:blue;text-align:right;width:15%;display:inline-block;font-weight:bold">pass:</label>
+			<input type="password" id="pass" value="123" name="pass"><br>
+			<input type="submit" value="Save">
+			<input type="submit" name="Apply" value="Save&Apply">
+		</form>
+	</div>
+</body>
+</html>
